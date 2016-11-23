@@ -48,4 +48,8 @@ class Avoid(Brain):
 def INIT(engine): 
    assert (engine.robot.requires("range-sensor") and
            engine.robot.requires("continuous-movement"))
-   return Avoid('Avoid', engine) 
+   return Avoid('Avoid', engine)
+
+
+# demo video for this code : https://youtu.be/nvtN3Y2T9U8
+
